@@ -15,7 +15,7 @@ public class Main {
             while (scanner.hasNextLine()) {
                 fileLines.add(scanner.nextLine());
             }
-            System.out.println("В файле" + fileLines.size() + "строк");
+            System.out.println("В файле" + fileLines.size() + "строк");//
                 int i=1;
             for (String s:fileLines) {
                 System.out.println("В строке " + i+ " количество символов " + s.length());
